@@ -1,0 +1,20 @@
+.card{
+    margin: 10px;
+
+}
+
+.containerInput{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+.busqueda{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-left:5px;
+}
+.contenedorProgreso{
+    margin-bottom:5px;
+}

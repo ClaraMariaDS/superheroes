@@ -1,0 +1,10 @@
+.formulario{
+    margin: 10vh 25vw;
+}
+.error{
+    font-size: 12px;
+    color: red;
+}
+.formulario h1{
+    font-size: 30px;
+}
