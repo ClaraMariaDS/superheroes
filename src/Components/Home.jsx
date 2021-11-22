@@ -39,7 +39,12 @@ function Home() {
     return (
         <>
             <Header />
+            <hr />
             <div className="busqueda">
+                <div>
+                    <h3>Comienza tu búsqueda!</h3>
+                </div>
+
                 <div className="containerInput">
                     <input className="form-control inputBuscar"
                         value={busqueda}
@@ -61,7 +66,9 @@ function Home() {
                         <div className="col" key={sup.id}>
                             <Card body
                                 color="secondary"
-                                outline>
+                                outline
+                                className="card border-3 border-dark"
+                            >
                                 <img src={sup.image.url} className="card-img-top" />
                                 <div className="card-body">
                                     <p className="card-text">{sup.name}</p>
@@ -102,7 +109,7 @@ function Home() {
                                             </Progress>
                                         </div>
                                     </div>
-                                    <Button>Agregar al equipo</Button>
+
                                 </div>
 
 

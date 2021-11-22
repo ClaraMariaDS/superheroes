@@ -1,16 +1,18 @@
 .card{
     margin: 10px;
-
 }
 
 .containerInput{
     width: 20vw;
     display: flex;
     justify-content: center;
+    margin: 20px 0px;
 }
 .busqueda{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
 }
 .btn{
     margin-left:5px;

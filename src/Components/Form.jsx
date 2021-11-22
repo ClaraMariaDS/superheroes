@@ -13,9 +13,10 @@ const Formulario = () => {
     return (
         <>
             <Header />
+            <hr />
             <div className="formulario">
-                <div className="container text-center">
-                    <h1>Completa el formulario para ingresar</h1>
+                <div >
+                    <h3>Completa el formulario para ingresar</h3>
                 </div>
                 <Formik
                     initialValues={{
@@ -87,9 +88,13 @@ const Formulario = () => {
                             </Form.Group>
                             <Button className="btn btn-primary" color="dark" type="submit">Enviar</Button>
                         </Form>
-
                     )}
                 </Formik>
+                <div className="info_container">
+                    <h6>Datos válidos:</h6>
+                    <p>Email: challenge@alkemy.org</p>
+                    <p>Contraseña: react</p>
+                </div>
             </div>
         </>
     );
